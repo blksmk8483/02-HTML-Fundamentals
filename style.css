@@ -97,6 +97,28 @@ li:nth-child(even) {
   color: fuchsia;
 } */
 
-article p:last-child {
+/* MISCONCEPTION: this won't work! */
+/* article p:last-child {
   color: red;
+} */
+
+/* ------   Styling the links   ------ */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
