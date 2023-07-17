@@ -17,7 +17,7 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
 }
 
 .main-header {
@@ -37,6 +37,7 @@ article {
 
 .post-header {
   margin-bottom: 40px;
+  /* position: relative; */
 }
 
 aside {
@@ -217,4 +218,37 @@ button {
   left: 0; */
   bottom: 50px;
   right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* h2::first-letter {
+  font-size: 80px;
+} */
+
+/* ------   ADJACENT SIBLING SELECTOR   ------ */
+/* h3 + p::first-line {
+  color: red;
+} */
+
+/* ------   BEFORE AND AFTER PSUEDO-ELEMENT   ------ */
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
+h2 {
+  /* background-color: orange; */
+  position: relative;
 }
