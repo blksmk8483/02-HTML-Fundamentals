@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -252,4 +252,48 @@ h2::after {
 h2 {
   /* background-color: orange; */
   position: relative;
+}
+
+/* -------      FLOATS      ------ */
+
+.author-image {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 290px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
