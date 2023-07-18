@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
+.container {
+  width: auto;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  text-transform: uppercase;
+  background-color: #bed8ee;
+}
+
+/* ------   PROFILE CONTAINER   ------ */
+.profile-container {
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.profile-image {
+  width: 260px;
+  height: 350px;
+}
+
+.profile-bio {
+  font-size: 18px;
+}
+
+/* ------   HOBBIES CONTAINER   ------ */
+.hobbies {
+  background-color: aliceblue;
+  margin-top: 20px;
+}
+
+.hobbies-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #bed8ee;
+}
+
+.hobbies-container {
+  display: flex;
+  gap: 15px;
+}
+
+.hobbie-1 {
+  align-items: center;
+}
+
+.hobbie-2 {
+  align-items: center;
+}
+
+.hobbie-3 {
+  align-items: center;
+}
