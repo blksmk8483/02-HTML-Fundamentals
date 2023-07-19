@@ -40,6 +40,7 @@ body {
 .hobbies {
   background-color: aliceblue;
   margin-top: 20px;
+  border-bottom: solid 4px #bed8ee;
 }
 
 .hobbies-title {
@@ -51,17 +52,19 @@ body {
 
 .hobbies-container {
   display: flex;
-  gap: 15px;
+  /* gap: 15px; */
 }
 
 .hobbie-1 {
-  align-items: center;
+  text-align: center;
+  border-right: solid 4px #bed8ee;
 }
 
 .hobbie-2 {
-  align-items: center;
+  text-align: center;
+  border-right: solid 4px #bed8ee;
 }
 
 .hobbie-3 {
-  align-items: center;
+  text-align: center;
 }
