@@ -6,6 +6,7 @@
 
 body {
   color: #444;
+  background-color: #f7f5f3;
   font-family: sans-serif;
 }
 
@@ -38,7 +39,7 @@ body {
 
 /* ------   HOBBIES CONTAINER   ------ */
 .hobbies {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   margin-top: 20px;
   border-bottom: solid 4px #bed8ee;
 }
@@ -67,4 +68,38 @@ body {
 
 .hobbie-3 {
   text-align: center;
+}
+
+/* ------   INFO CONTAINER   ------ */
+.info-container {
+  display: flex;
+  /* justify-content: center; */
+  /* flex: 1; */
+  margin-top: 15px;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 40%;
+  align-content: center;
+  background-color: red;
+}
+
+.website-information-container {
+  display: flex;
+  flex-direction: column;
+  flex: 60%;
+}
+
+.website-information {
+  border: solid 4px #bed8ee;
+  /* width: 50%; */
+  /* flex: 1; */
+}
+
+.my-list {
+  list-style: none;
+  letter-spacing: 1.5cqmax;
 }
