@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: auto;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -19,13 +19,16 @@ body {
   font-size: 36px;
   text-transform: uppercase;
   background-color: #bed8ee;
+  margin: 15px;
 }
 
 /* ------   PROFILE CONTAINER   ------ */
 .profile-container {
   display: flex;
+  justify-content: center;
   gap: 25px;
   margin-top: 15px;
+  width: 95%;
 }
 
 .profile-image {
@@ -42,6 +45,9 @@ body {
   background-color: #f0f8ff;
   margin-top: 20px;
   border-bottom: solid 4px #bed8ee;
+  /* width: 95%; */
+  /* margin-left: 15px; */
+  justify-content: center;
 }
 
 .hobbies-title {
@@ -76,6 +82,8 @@ body {
   /* justify-content: center; */
   /* flex: 1; */
   margin-top: 15px;
+  /* width: 95%; */
+  gap: 15px;
 }
 
 .list-container {
@@ -84,7 +92,7 @@ body {
   justify-content: center;
   flex: 40%;
   align-content: center;
-  background-color: red;
+  background-color: #f0f8ff;
 }
 
 .website-information-container {
