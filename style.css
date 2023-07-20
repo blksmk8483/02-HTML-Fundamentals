@@ -24,7 +24,7 @@ body {
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -33,9 +33,9 @@ nav {
   /* text-align: center; */
 }
 
-article {
+/* article {
   margin-bottom: 60px;
-}
+} */
 
 .post-header {
   margin-bottom: 40px;
@@ -44,7 +44,8 @@ article {
 
 aside {
   background-color: #f7f7f7;
-  border: 5px solid #1098ad;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
 }
 
@@ -337,7 +338,8 @@ footer {
   color: #444;
 }
 
-.row {
+/* ------   FLEXBOX LAYOUT   ------ */
+/* .row {
   display: flex;
   align-items: flex-start;
   gap: 75px;
@@ -351,4 +353,23 @@ article {
 
 aside {
   flex: 0 0 300px;
+} */
+
+/* ------   CSS GRID LAYOUT   ------ */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / span 2;
+  /* another way to write this */
+  /* grid-column: 1 / -1; */
+}
+
+footer {
+  grid-column: 1 / -1;
 }
